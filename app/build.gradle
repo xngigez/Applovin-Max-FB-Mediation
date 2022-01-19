@@ -35,4 +35,16 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+//    01. Applovin SDK
+    implementation 'com.applovin:applovin-sdk:+'
+
+    // 01. Facebook Mediation
+    implementation 'com.applovin.mediation:facebook-adapter:+'
+}
+
+//05. Applovin SDK
+apply plugin: 'applovin-quality-service'
+applovin {
+    apiKey "LcZQLdSbP3fLMkuqL1y-iXo3oh8JdaXLbt7skGfCFwvXkoT0zb9smKCEQnrgP4Sz4MSKZVh3_CgXSCUoz3OScT"
 }

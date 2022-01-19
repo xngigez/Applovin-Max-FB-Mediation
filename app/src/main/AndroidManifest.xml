@@ -8,7 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ZggoRewards">
+        android:theme="@style/Theme.ZggoRewards"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+<!--        02. Applovin SDK-->
+        <meta-data android:name="applovin.sdk.key"
+            android:value="aC2iNgX_zP0JzhGOTR8gpzygtWhshaaGncz9IV8Fv8TtrqFIGO-3MxkDSQ480ePnFMwTt3onBLd19tKQGJTcEC"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
